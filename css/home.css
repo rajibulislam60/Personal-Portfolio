@@ -5,3 +5,31 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+#container {
+  width: 1230px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+nav ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+main {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.title {
+  text-align: center;
+}
+.title p {
+  color: gray;
+}
