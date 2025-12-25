@@ -24,11 +24,12 @@ nav ul li a {
   text-decoration: none;
 }
 main {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .title {
   text-align: center;
+  padding-bottom: 60px;
 }
 .title p {
   color: gray;
@@ -83,4 +84,31 @@ ul {
   position: absolute;
   left: 0;
   color: black;
+}
+.review-container {
+  padding-top: 60px;
+}
+.review-container h3 {
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+.review-container article {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+}
+.review-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+.review-container article ul {
+  color: gray;
+  font-weight: 500;
+  padding-top: 12px;
+}
+footer {
+  text-align: center;
+  font-style: italic;
 }
