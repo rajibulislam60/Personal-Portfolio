@@ -33,3 +33,54 @@ main {
 .title p {
   color: gray;
 }
+.resume-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.resume-container .section1,
+.section2,
+.section3 {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.resume-container h3 {
+  padding: 10px;
+}
+.section1,
+.section3,
+ul {
+  list-style: none;
+}
+.section1 ul li {
+  border-bottom: 1px solid #000;
+  padding: 10px;
+}
+.section1 ul li:last-child {
+  border-bottom: none;
+}
+.section2 .box {
+  border-bottom: 1px solid #000;
+  padding: 10px;
+}
+.section2 .box:last-child {
+  border-bottom: none;
+}
+.section3 {
+  padding: 10px;
+}
+.section3 h3 {
+  padding: 0px;
+}
+.section3 ul li {
+  position: relative;
+  padding-left: 10px;
+}
+
+.section3 ul li::before {
+  content: "\2013";
+  position: absolute;
+  left: 0;
+  color: black;
+}
