@@ -1,0 +1,55 @@
+main h2 {
+  text-align: center;
+  padding-bottom: 44px;
+  font-weight: 600;
+  font-style: italic;
+}
+main section {
+  border: 1px solid gray;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 8px;
+}
+section form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  padding: 20px;
+}
+form input,
+form textarea {
+  padding: 12px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 15px;
+  width: 95%;
+}
+button {
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #333;
+}
+/* ============= Responsive ============= */
+@media (max-width: 992px) {
+  #container {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  #container {
+    width: 95%;
+  }
+  main section {
+    width: 100%;
+  }
+}
