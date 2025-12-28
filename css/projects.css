@@ -1,0 +1,45 @@
+main section img {
+  border: 2px solid gray;
+  width: 100%;
+}
+.image-items {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  gap: 20px;
+}
+ul li {
+  list-style: none;
+  padding-bottom: 16px;
+}
+button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: medium;
+  font-weight: 600;
+  color: black;
+}
+button:hover {
+  color: white;
+  background: black;
+}
+button a {
+  text-decoration: none;
+}
+/* ============== Responsive ============= */
+@media (max-width: 992px) {
+  #container {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  #container {
+    width: 95%;
+  }
+  .image-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
